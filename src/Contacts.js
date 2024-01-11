@@ -3,7 +3,7 @@
 const Contacts = () => {
   return (
     <div>
-      Contacts Page
+      <h1>Contacts Page</h1>
     </div>
   )
 }

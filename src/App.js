@@ -3,6 +3,7 @@ import Home from './Home';
 import Products from './Products';
 import AboutUs from './AboutUs';
 import Contacts from './Contacts';
+import basket from './basket.png';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Link to="/products" className='link'>Products</Link>
         <Link to="/about" className='link'>About Us</Link>
         <Link to="/contacts" className='link'>Contacts</Link>
+        <img src={basket} alt='basket'/>
       </nav>
 
       <Routes>
