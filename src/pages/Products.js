@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Data } from "./Data";
-import Button from "./Button";
-import Kruiden from "./Kruiden";
+import { Data } from "../Data";
+import Button from "../Button";
+import Kruiden from "../Kruiden";
 
 function Products() {
     const [kruiden, setKruiden] = useState(Data);
@@ -12,7 +12,7 @@ function Products() {
     }
   
     return (
-      <div>
+      <div className="container">
         <div className="cont">
           <h2 className="back">About Delivery</h2>
         </div>
