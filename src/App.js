@@ -1,27 +1,46 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import Products from './Products';
-import AboutUs from './AboutUs';
-import Reviews from './Reviews';
-import basket from './basket.png';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import Delivery from './pages/Delivery';
+import Payment from './pages/Payment';
+import basket from './icons/basket.png';
+import magnifier from './icons/magnifier.png';
+import burger from './icons/burger.png';
+import Contacts from './pages/Contacts';
+import { useState } from 'react';
 
 function App() {
+  const [isOpen, setOpen] = useState();
+
   return (
     <Router>
       <nav>
-        <Link to="/" className='link'>Home</Link>
-        <Link to="/products" className='link'>Products</Link>
-        <Link to="/about" className='link'>About Us</Link>
-        <Link to="/reviews" className='link'>Reviews</Link>
-        <img src={basket} alt='basket'/>
+        <div className='container header'>
+          <p className='logo'>TURAN KRUIDEN</p>
+          <div className={`links ${isOpen ? "active" : ""}`}>
+            <Link to="/" className='link'>Home</Link>
+            <Link to="/products" className='link'>Products</Link>
+            <Link to="/delivery" className='link'>Delivery</Link>
+            <Link to="/payment" className='link'>Payment</Link>
+            <Link to="/contacts" className='link'>Contacts</Link>
+          </div>  
+          <input className='search'/>
+          <img src={magnifier} alt='magnifier' className='magnifier'/>
+          <img src={basket} alt='basket' className='basket'/>
+          <button className='burger-button' onClick={()=> setOpen(!isOpen)}>
+            <img src={burger} alt='menu'/>
+          </button>
+        </div>
+        
       </nav>
 
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/products" element={<Products/>} />
-        <Route path="/about" element={<AboutUs/>} />
-        <Route path="/reviews" element={<Reviews/>}/>
+        <Route path="/delivery" element={<Delivery/>} />
+        <Route path="/payment" element={<Payment/>}/>
+        <Route path="/contacts" element={<Contacts/>}/>
       </Routes>
     </Router>
   );
