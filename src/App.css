@@ -1,11 +1,6 @@
 body {
   font-family: 'Inter', sans-serif;
 }
-.container{
-  max-width: 1200px;
-  width: 100%;
-  margin: auto;
-}
 
 /* Header */
 
@@ -18,13 +13,13 @@ nav {
   background-image: url('./image/header-background.jpg');
   background-size: coder;
   background-repeat: no-repeat;
-  padding: 0 20px;
-  
+  padding: 0 120px;
 }
 .header{
   display: flex;
   justify-content:flex-end;
   align-items: center;
+  width: 100%;
 }
 .links{
   display: flex;
@@ -33,7 +28,15 @@ nav {
 .link {
   text-decoration: none;
   color: rgba(4, 10, 2, 1);
-  margin-right: 20px;
+  margin-right: 16px;
+  padding: 4px;
+}
+.link:hover{
+  background-color: rgb(44, 104, 46);
+  color: white;
+}
+.link:active{
+  background-color: transparent;
 }
 .logo{
   margin-right: auto;
@@ -41,7 +44,6 @@ nav {
   font-weight: 700;
   line-height: 33px;
   color: rgba(14, 37, 7, 1);
-  padding: 25 0 25 120px;
 }
 .search{
   width: 146px;
@@ -62,8 +64,39 @@ nav {
 .burger-button{
   display: none;
 }
+@media all and (max-width: 1200px){
+  nav{
+    padding: 0 20px;
+  }
+.logo{
+  font-size: 24px;
+  }
+}
+@media all and (max-width: 900px){
+  nav{
+    padding: 0 10px;
+  }
+.logo{
+  font-size: 18px;
+}
+.link{
+  margin-right: 16px;
+}
+.search{
+  width: 100px;
+  height: 24px;
+}
+.magnifier{
+  width: 30px;
+  height: 30px;
+}
+.basket {
+  width: 20px;
+  height: 30px;
+}
+}
 
-@media all and (max-width: 1023px){
+@media all and (max-width: 767px){
 .links{
   position: fixed;
   top: 0;
