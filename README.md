@@ -1,3 +1,5 @@
+The project for an online store for spices, tea and accessories is being created at the request of a client from the Netherlands, who is currently selling his goods in markets.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
