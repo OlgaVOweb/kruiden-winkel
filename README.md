@@ -10,6 +10,7 @@ Team working on the website project
 https://trello.com/b/CZNvp9St/tea-store-project
 
 Working on the project:
+
 me - https://github.com/OlgaVOweb
 
 https://github.com/tatianasnook
