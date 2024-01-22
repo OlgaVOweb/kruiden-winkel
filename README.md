@@ -6,6 +6,9 @@ https://www.figma.com/file/2tk4uHgMhRJDFT3zRHI9lh/Project-Thee-winkel?type=desig
 You can see the project deployed on the Internet here 
 https://kruidenthee.netlify.app/
 
+Team working on the website project
+https://trello.com/b/CZNvp9St/tea-store-project
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
