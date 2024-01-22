@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <nav>
-        <div className='container header'>
+        <div className='header'>
           <p className='logo'>TURAN KRUIDEN</p>
           <div className={`links ${isOpen ? "active" : ""}`}>
             <Link to="/" className='link'>Home</Link>
@@ -32,7 +32,6 @@ function App() {
             <img src={burger} alt='menu'/>
           </button>
         </div>
-        
       </nav>
 
       <Routes>
