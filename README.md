@@ -9,6 +9,11 @@ https://kruidenthee.netlify.app/
 Team working on the website project
 https://trello.com/b/CZNvp9St/tea-store-project
 
+Working on the project:
+me - https://github.com/OlgaVOweb
+https://github.com/tatianasnook
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
