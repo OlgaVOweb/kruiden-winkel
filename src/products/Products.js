@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Data } from "../Data";
-import Button from "../Button";
-import Kruiden from "../Kruiden";
+import { Data } from './Data';
+import Button from './Button';
+import Kruiden from './Kruiden';
+import './products.css';
 
 function Products() {
     const [kruiden, setKruiden] = useState(Data);
@@ -12,9 +13,10 @@ function Products() {
     }
   
     return (
-      <div>
-        <div className="cont">
-          <h2 className="back">About Delivery</h2>
+      <div className="container">
+        <div className="container__header">
+          <h2 className="container__header-products">PRODUCTS</h2>
+          <button className="container__header-button">FILTER</button>
         </div>
         <Button filteredKruiden={chosenKruiden} setKruiden={setKruiden}/>
         <Kruiden itemKruiden={kruiden}/>
