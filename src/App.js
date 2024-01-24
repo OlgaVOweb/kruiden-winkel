@@ -1,3 +1,4 @@
+
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
@@ -8,6 +9,7 @@ import basket from './icons/basket.png';
 import magnifier from './icons/magnifier.png';
 import burger from './icons/burger.png';
 import Contacts from './pages/Contacts';
+import Footer from './Footer';
 import { useState } from 'react';
 
 function App() {
@@ -41,6 +43,7 @@ function App() {
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 }
