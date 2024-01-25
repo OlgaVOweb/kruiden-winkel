@@ -12,7 +12,7 @@ function Products() {
     }
   
     return (
-      <div>
+      <div className="container">
         <div className="cont">
           <h2 className="back">About Delivery</h2>
         </div>

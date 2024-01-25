@@ -1,7 +1,9 @@
 body {
   font-family: 'Inter', sans-serif;
 }
-
+.container{
+  height: calc(100vh - 200px);
+}
 /* Header */
 
 nav {
@@ -67,8 +69,6 @@ nav {
 
 footer {
   background-color: #f0f0f0;
-  position: fixed;
-  bottom: 0;
   width: 100vw;
   display: flex;
   justify-content: center;

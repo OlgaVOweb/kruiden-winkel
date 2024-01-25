@@ -1,7 +1,7 @@
 
 const Delivery = () => {
   return (
-    <div>
+    <div className="container">
       <p>Delivery Page</p>
     </div>
   )
