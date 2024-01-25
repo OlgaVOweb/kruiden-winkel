@@ -1,10 +1,10 @@
-import oolong from './image/oolong.jpg';
-import greentea from './image/greentea.jpg'
+import oolong from '../imageData/oolong.jpg';
+import greentea from '../imageData/greentea.jpg'
 
 
 export const Data = [
     {   id: 1,
-        foodName: "Oolong",
+        kruidenName: "Oolong",
         searchGroup: "greenTea",
         price: 4,
         units: "100g",
@@ -12,7 +12,7 @@ export const Data = [
         compound: "100% oolong"
     },
     {   id: 2,
-        foodName: "Green tea",
+        kruidenName: "Green tea",
         searchGroup: "greenTea",
         price: 3.5,
         units: "100g",

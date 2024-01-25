@@ -2,7 +2,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
-import Products from './pages/Products';
+import Products from './products/Products';
 import Delivery from './pages/Delivery';
 import Payment from './pages/Payment';
 import basket from './icons/basket.png';
@@ -20,19 +20,22 @@ function App() {
       <nav>
         <div className='header'>
           <p className='logo'>TURAN KRUIDEN</p>
-          <div className={`links ${isOpen ? "active" : ""}`}>
-            <Link to="/" className='link'>Home</Link>
-            <Link to="/products" className='link'>Products</Link>
-            <Link to="/delivery" className='link'>Delivery</Link>
-            <Link to="/payment" className='link'>Payment</Link>
-            <Link to="/contacts" className='link'>Contacts</Link>
-          </div>  
-          <input className='search'/>
-          <img src={magnifier} alt='magnifier' className='magnifier'/>
-          <img src={basket} alt='basket' className='basket'/>
-          <button className='burger-button' onClick={()=> setOpen(!isOpen)}>
-            <img src={burger} alt='menu'/>
-          </button>
+
+          <div className='header-left-part'>
+            <div className={`links ${isOpen ? "active" : ""}`}>
+              <Link to="/" className='link'>Home</Link>
+              <Link to="/products" className='link'>Products</Link>
+              <Link to="/delivery" className='link'>Delivery</Link>
+              <Link to="/payment" className='link'>Payment</Link>
+              <Link to="/contacts" className='link'>Contacts</Link>
+            </div>  
+            <input className='search'/>
+            <img src={magnifier} alt='magnifier' className='magnifier'/>
+            <img src={basket} alt='basket' className='basket'/>
+            <button className='burger-button' onClick={()=> setOpen(!isOpen)}>
+              <img src={burger} alt='menu'/>
+            </button>
+          </div>
         </div>
       </nav>
 

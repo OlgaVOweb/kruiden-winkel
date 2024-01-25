@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <div className='footer-container'>
         <div className="top-line">
-          <p>TURAN KRUIDEN</p>
+          <p className='logo'>TURAN KRUIDEN</p>
           <div className="social-links">
             <img src={instagram} alt='instagram'/>
             <img src={whatsapp} alt='whatsapp'/>

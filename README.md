@@ -1,3 +1,21 @@
+The project for an online store for spices, tea and accessories is being created at the request of a client from the Netherlands, who is currently selling his goods in markets.
+
+You can see the Figma design project here
+https://www.figma.com/file/2tk4uHgMhRJDFT3zRHI9lh/Project-Thee-winkel?type=design&node-id=0%3A1&mode=design&t=dGSp05gxdpbytqz2-1
+
+You can see the project deployed on the Internet here 
+https://kruidenthee.netlify.app/
+
+Team working on the website project
+https://trello.com/b/CZNvp9St/tea-store-project
+
+Working on the project:
+
+me - https://github.com/OlgaVOweb
+
+https://github.com/tatianasnook
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
