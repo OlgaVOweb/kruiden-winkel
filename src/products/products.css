@@ -27,8 +27,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #d3f3b5;
-    box-shadow: 2px 2px 2px 0 #7fa157;
+    background-color: #e3f3d5;
+    box-shadow: 2px 2px 2px 0 #9afa2d;
 }
 
 .container__buttons-item {
@@ -79,7 +79,7 @@
 
 .card__buttons-item4 {
     width: 95px;
-    background-color: #1b421a;
+    background-color: #15f811;
     color: #ffffff;
     padding: 5px 0;
     border: none;
