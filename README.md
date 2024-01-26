@@ -11,9 +11,11 @@ https://trello.com/b/CZNvp9St/tea-store-project
 
 Working on the project:
 
-me - https://github.com/OlgaVOweb
+I am Olga - https://github.com/OlgaVOweb
 
-https://github.com/tatianasnook
+Tatyana -https://github.com/tatianasnook
+
+Olga - https://github.com/Olya2125
 
 
 # Getting Started with Create React App
