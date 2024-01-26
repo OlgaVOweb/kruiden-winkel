@@ -13,7 +13,7 @@ Working on the project:
 
 I am Olga - https://github.com/OlgaVOweb
 
-Tatyana -https://github.com/tatianasnook
+Tatiana -https://github.com/tatianasnook
 
 Olga - https://github.com/Olya2125
 
