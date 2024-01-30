@@ -53,7 +53,7 @@ const AddressForm = () => {
         placeholder="Address"
       ></textarea>
 
-      <button type="submit" className="btn-sent">Sent</button>
+      <button type="submit" className="btn-sent">Send</button>
     </form>
     </div>
   );
