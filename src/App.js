@@ -15,6 +15,10 @@ import { useState } from 'react';
 function App() {
   const [isOpen, setOpen] = useState();
 
+  const closeMobileMenu = () => {
+    setOpen(false);
+  };
+
   return (
     <Router>
       <nav>
@@ -23,11 +27,11 @@ function App() {
 
           <div className='header-left-part'>
             <div className={`links ${isOpen ? "active" : ""}`}>
-              <Link to="/" className='link'>Home</Link>
-              <Link to="/products" className='link'>Products</Link>
-              <Link to="/delivery" className='link'>Delivery</Link>
-              <Link to="/payment" className='link'>Payment</Link>
-              <Link to="/contacts" className='link'>Contacts</Link>
+              <Link to="/" className='link' onClick={closeMobileMenu}>Home</Link>
+              <Link to="/products" className='link' onClick={closeMobileMenu}>Products</Link>
+              <Link to="/delivery" className='link' onClick={closeMobileMenu}>Delivery</Link>
+              <Link to="/payment" className='link' onClick={closeMobileMenu}>Payment</Link>
+              <Link to="/contacts" className='link' onClick={closeMobileMenu}>Contacts</Link>
             </div>  
             <input className='search'/>
             <img src={magnifier} alt='magnifier' className='magnifier'/>
