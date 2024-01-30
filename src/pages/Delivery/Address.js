@@ -78,7 +78,7 @@ const Address = () => {
             value={phoneNumber}
             onChange={handlePhoneNumberChange}
           />
-          <button type="submit" className="btn-sent">Sent</button>
+          <button type="submit" className="btn-sent">Send</button>
         </form>
       )}
     </div>

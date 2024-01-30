@@ -11,11 +11,8 @@ const Delivery = () => {
   return (
     <div className='body-delivery'>
     <div className='body'>
-        
-    <div className='border-car'>
+     <img className='car' src={car} alt="Car" />
 
-<img className='car' src={car} alt="Car" />
-</div>
 <div className='choose'>Choose delivery </div>
   <div className='form-delivery'>
   <Address/>
