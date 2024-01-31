@@ -2,7 +2,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import Products from './products/Products';
+
 import Delivery from './pages/Delivery/Delivery';
 import Payment from './pages/Payment';
 import basket from './icons/basket.png';
@@ -11,6 +11,8 @@ import burger from './icons/burger.png';
 import Contacts from './pages/Contacts';
 import Footer from './Footer';
 import { useState } from 'react';
+import Products from './pages/Products/Products';
+
 
 function App() {
   const [isOpen, setOpen] = useState();
