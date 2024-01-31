@@ -86,4 +86,36 @@ export const Data = [
         image: biefstukKruiden,
         compound: ""
     },
+    {   id: 11,
+        kruidenName: "Gember Gemalen",
+        searchGroup: "gemalen",
+        price: 1.75,
+        units: "50g",
+        image: gemberGemalen,
+        compound: ""
+    },
+    {   id: 12,
+        kruidenName: "Komijn Zaad",
+        searchGroup: "zaad",
+        price: 1.75,
+        units: "50g",
+        image: komijnZaad,
+        compound: ""
+    },
+    {   id: 13,
+        kruidenName: "Sate Kruid",
+        searchGroup: "kruid",
+        price: 1.75,
+        units: "50g",
+        image: sateKruid,
+        compound: ""
+    },
+    {   id: 14,
+        kruidenName: "Piripiri Kruiden",
+        searchGroup: "kruiden",
+        price: 1.75,
+        units: "50g",
+        image: piripiriKruiden,
+        compound: ""
+    }
 ]

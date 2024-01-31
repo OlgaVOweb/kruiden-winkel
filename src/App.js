@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Products from './products/Products';
 import Delivery from './pages/Delivery/Delivery';
-import Payment from './pages/Payment';
+import Cart from './pages/Cart/Cart';
 import basket from './icons/basket.png';
 import magnifier from './icons/magnifier.png';
 import burger from './icons/burger.png';
@@ -30,15 +30,20 @@ function App() {
               <Link to="/" className='link' onClick={closeMobileMenu}>Home</Link>
               <Link to="/products" className='link' onClick={closeMobileMenu}>Products</Link>
               <Link to="/delivery" className='link' onClick={closeMobileMenu}>Delivery</Link>
-              <Link to="/payment" className='link' onClick={closeMobileMenu}>Payment</Link>
               <Link to="/contacts" className='link' onClick={closeMobileMenu}>Contacts</Link>
             </div>  
+
             <input className='search'/>
             <img src={magnifier} alt='magnifier' className='magnifier'/>
-            <img src={basket} alt='basket' className='basket'/>
+            
+            <Link to="/cart">
+              <img src={basket} alt='basket' className='basket'/>
+            </Link>
+
             <button className='burger-button' onClick={()=> setOpen(!isOpen)}>
               <img src={burger} alt='menu'/>
             </button>
+            
           </div>
         </div>
       </nav>
@@ -47,8 +52,8 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/products" element={<Products/>} />
         <Route path="/delivery" element={<Delivery/>} />
-        <Route path="/payment" element={<Payment/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
+        <Route path="/cart" element={<Cart/>}/>
       </Routes>
       <Footer/>
     </Router>
