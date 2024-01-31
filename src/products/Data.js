@@ -3,8 +3,11 @@ import gehakteKruiden from '../imageData/gehakteKruiden.png';
 import cajun from '../imageData/cajun.png';
 import vleesKruiden from '../imageData/vlessKruiden.png';
 import biefstukKruiden from '../imageData/biefstukKruiden.png';
-
-
+import sambalPeper from '../imageData/sambalPeper.png';
+import braadgrilVlees from '../imageData/braadgrilVlees.png';
+import kipKruiden from '../imageData/kipKruiden.png';
+import macoroniKruiden from '../imageData/macoroniKruiden.png';
+ 
 export const Data = [
     {   id: 1,
         kruidenName: "Knoflook Zout",
@@ -85,5 +88,37 @@ export const Data = [
         units: "50g",
         image: biefstukKruiden,
         compound: ""
+    },
+    {   id: 11,
+        kruidenName: "Sambal peper",
+        searchGroup: "kruiden",
+        price: 1.75,
+        units: "50g",
+        image: sambalPeper,
+        compound: ""
+    },
+    {   id: 12,
+        kruidenName: "Braadgril vlees",
+        searchGroup: "kruiden",
+        price: 2,
+        units: "50g",
+        image: braadgrilVlees,
+        compound: "paprika, knoflook, koriander, peperwit, oregano, majoraan, cayene, basilicum, peterselie"
+    },
+    {   id: 13,
+        kruidenName: "Kip kruiden zonder zout",
+        searchGroup: "kruiden",
+        price: 2,
+        units: "50g",
+        image: kipKruiden,
+        compound: ""
+    },
+    {   id: 14,
+        kruidenName: "Macoroni kruiden zonder zout",
+        searchGroup: "kruiden",
+        price: 2,
+        units: "50g",
+        image: macoroniKruiden,
+        compound: "dillezaad, oregano, curcuma, cayene"
     },
 ]
