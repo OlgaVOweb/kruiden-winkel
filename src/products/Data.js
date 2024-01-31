@@ -90,7 +90,7 @@ export const Data = [
         image: biefstukKruiden,
         compound: ""
     },
-    {   id: 11,
+    {   id: 19,
         kruidenName: "Gember Gemalen",
         searchGroup: "gemalen",
         price: 1.75,
@@ -98,7 +98,7 @@ export const Data = [
         image: gemberGemalen,
         compound: ""
     },
-    {   id: 12,
+    {   id: 20,
         kruidenName: "Komijn Zaad",
         searchGroup: "zaad",
         price: 1.75,
@@ -106,7 +106,7 @@ export const Data = [
         image: komijnZaad,
         compound: ""
     },
-    {   id: 13,
+    {   id: 21,
         kruidenName: "Sate Kruid",
         searchGroup: "kruid",
         price: 1.75,
@@ -114,7 +114,7 @@ export const Data = [
         image: sateKruid,
         compound: ""
     },
-    {   id: 14,
+    {   id: 22,
         kruidenName: "Piripiri Kruiden",
         searchGroup: "kruiden",
         price: 1.75,
