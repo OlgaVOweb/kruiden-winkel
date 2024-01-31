@@ -2,7 +2,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
-import Products from './products/Products';
+import Products from './pages/Products/Products';
 import Delivery from './pages/Delivery/Delivery';
 import Payment from './pages/Payment';
 import basket from './icons/basket.png';
