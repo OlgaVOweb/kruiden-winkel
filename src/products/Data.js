@@ -3,6 +3,10 @@ import gehakteKruiden from '../imageData/gehakteKruiden.png';
 import cajun from '../imageData/cajun.png';
 import vleesKruiden from '../imageData/vlessKruiden.png';
 import biefstukKruiden from '../imageData/biefstukKruiden.png';
+import gemberGemalen from '../imageData/gemberGemalen.png';
+import komijnZaad from '../imageData/komijnZaad.png';
+import sateKruid from '../imageData/sateKruid.png';
+import piripiriKruiden from '../imageData/piripiriKruiden.png';
 
 
 export const Data = [
