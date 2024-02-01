@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Data } from './Data';
 import Button from './Button';
 import Kruiden from './Kruiden';
 import './products.css';
+import { Data } from "./Data";
 
 function Products() {
     const [kruiden, setKruiden] = useState(Data);

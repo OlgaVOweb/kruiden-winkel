@@ -33,27 +33,21 @@ const Home = () => {
 <div className='card-bestsellers  width-mini'>
                     <img className="bestsellers-img" src={oolong} alt="prod"/>
                     <div className="product__card-content ">
-                        <h3 className="card__content-name"></h3>
-                        <h4 className="card__content-compound"></h4>
-                        <h4 className="card__content-price">$ 2 </h4>
+                        <h4 >$ 2 </h4>
                         <button className='more'>Read more</button>
                     </div>
                                     </div>
                                     <div className='card-bestsellers width-mini'>
                     <img className="bestsellers-img " src={oolong} alt="prod"/>
                     <div className="product__card-content">
-                        <h3 className="card__content-name"></h3>
-                        <h4 className="card__content-compound"></h4>
-                        <h4 className="card__content-price">$ 2 </h4>
+                        <h4 >$ 2 </h4>
                         <button className='more'>Read more</button>
                     </div>
                                     </div>
                                     <div className='card-bestsellers width-mini none'>
                     <img className="bestsellers-img " src={oolong} alt="prod"/>
                     <div className="product__card-content ">
-                        <h3 className="card__content-name"></h3>
-                        <h4 className="card__content-compound"></h4>
-                        <h4 className="card__content-price">$ 2 </h4>
+                        <h4 >$ 2 </h4>
                         <button className='more'>Read more</button>
                     </div>
                                     </div>
