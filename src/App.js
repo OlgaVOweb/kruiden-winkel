@@ -2,7 +2,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
-import Products from './pages/Products/Products';
 import Delivery from './pages/Delivery/Delivery';
 import Payment from './pages/Payment';
 import basket from './icons/basket.png';
@@ -11,6 +10,8 @@ import burger from './icons/burger.png';
 import Contacts from './pages/Contacts';
 import Footer from './Footer';
 import { useState } from 'react';
+import ProductsPage from './pages/products/Products';
+
 
 function App() {
   const [isOpen, setOpen] = useState();
@@ -45,7 +46,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/products" element={<Products/>} />
+        <Route path="/products" element={<ProductsPage/>} />
         <Route path="/delivery" element={<Delivery/>} />
         <Route path="/payment" element={<Payment/>}/>
         <Route path="/contacts" element={<Contacts/>}/>

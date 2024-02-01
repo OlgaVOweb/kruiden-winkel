@@ -1,4 +1,5 @@
-import { Data } from './Data';
+import { Data } from "./Data";
+
 
 function Button({filteredKruiden, setKruiden}) {
     return(
