@@ -4,8 +4,6 @@ import "./Delivery.css"
 import Address from './Address';
 import AddressForm from './AddressForm';
 
-
-
 const Delivery = () => {
     
   return (

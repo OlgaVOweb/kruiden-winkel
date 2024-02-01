@@ -47,7 +47,7 @@
 }
 .product__card {
     width: 200px;
-    height: 310px;
+    max-height: 400px;
     box-shadow: 2px 2px 2px 2px #aeb8ae;
 }
 
@@ -74,6 +74,7 @@
     width: 35px;
     padding: 5px 0;
     border: none;
+
 }
 
 .card__buttons-item4 {

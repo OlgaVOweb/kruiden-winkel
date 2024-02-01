@@ -28,7 +28,7 @@ function App() {
 
           <div className='header-left-part'>
             <div className={`links ${isOpen ? "active" : ""}`}>
-              <Link to="/" className='link' onClick={closeMobileMenu}>Home</Link>
+              <Link to="/home" className='link' onClick={closeMobileMenu}>Home</Link>
               <Link to="/products" className='link' onClick={closeMobileMenu}>Products</Link>
               <Link to="/delivery" className='link' onClick={closeMobileMenu}>Delivery</Link>
               <Link to="/payment" className='link' onClick={closeMobileMenu}>Payment</Link>
