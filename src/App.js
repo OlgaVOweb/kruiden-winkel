@@ -9,7 +9,7 @@ import burger from './icons/burger.png';
 import Contacts from './pages/Contacts';
 import Footer from './Footer';
 import { useState } from 'react';
-import Products from './pages/products/Products';
+import Products from './pages/Products/Products';
 import Home from './pages/Home/Home';
 
 
