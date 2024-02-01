@@ -33,21 +33,21 @@ const Home = () => {
 <div className='card-bestsellers  width-mini'>
                     <img className="bestsellers-img" src={oolong} alt="prod"/>
                     <div className="product__card-content ">
-                        <h4 >$ 2 </h4>
+                        <h4 className='price-best'>$ 2 </h4>
                         <button className='more'>Read more</button>
                     </div>
                                     </div>
                                     <div className='card-bestsellers width-mini'>
                     <img className="bestsellers-img " src={oolong} alt="prod"/>
                     <div className="product__card-content">
-                        <h4 >$ 2 </h4>
+                        <h4 className='price-best'>$ 2 </h4>
                         <button className='more'>Read more</button>
                     </div>
                                     </div>
                                     <div className='card-bestsellers width-mini none'>
                     <img className="bestsellers-img " src={oolong} alt="prod"/>
                     <div className="product__card-content ">
-                        <h4 >$ 2 </h4>
+                        <h4 className='price-best'>$ 2 </h4>
                         <button className='more'>Read more</button>
                     </div>
                                     </div>

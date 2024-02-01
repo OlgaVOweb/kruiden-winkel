@@ -166,7 +166,9 @@
 	flex-shrink: 0;
 	align-self: center;
 }
-
+.price-best{
+text-align: center;
+}
 .more {
 	background: none;
 	text-decoration: underline #125014 2px;
