@@ -3,7 +3,15 @@ import gehakteKruiden from '../../imageData/gehakteKruiden.png';
 import cajun from '../../imageData/cajun.png';
 import vleesKruiden from '../../imageData/vlessKruiden.png';
 import biefstukKruiden from '../../imageData/biefstukKruiden.png';
-import korianderGemalen from '../../imageData/korianderGemalen.png'
+import korianderGemalen from '../../imageData/korianderGemalen.png';
+import sambalPeper from '..//..//imageData/sambalPeper.png';
+import braadgrilVlees from '..//..//imageData/braadgrilVlees.png';
+import kipKruiden from '..//..//imageData/kipKruiden.png';
+import macoroniKruiden from '..//..//imageData/macoroniKruiden.png';
+import laosGemalen from '..//..//imageData/laosGemalen.png';
+import koriander from '..//..//imageData/koriander.png';
+import komijnGemalen from '..//..//imageData/komijnGemalen.png';
+import bamiKruiden from '..//..//imageData/bamiKruiden.png';
 
 
 export const Data = [
@@ -85,6 +93,70 @@ export const Data = [
         price: 1.75,
         units: "50g",
         image: biefstukKruiden,
+        compound: ""
+    },
+    {   id: 11,
+        kruidenName: "Sambal peper",
+        searchGroup: "kruiden",
+        price: 1.75,
+        units: "50g",
+        image: sambalPeper,
+        compound: ""
+    },
+    {   id: 12,
+        kruidenName: "Braadgril vlees kruiden thee zonder zout",
+        searchGroup: "kruiden",
+        price: 2,
+        units: "50g",
+        image: braadgrilVlees,
+        compound: "paprika, knoflook, koriander, peperwitt, oregano, majoraan, cayene, basilicusm, peterselie"
+    },
+    {   id: 13,
+        kruidenName: "Kip kruiden zonder zout",
+        searchGroup: "kruiden",
+        price: 2,
+        units: "50g",
+        image: kipKruiden,
+        compound: ""
+    },
+    {   id: 14,
+        kruidenName: "Macoroni kruiden zonder zout",
+        searchGroup: "kruiden",
+        price: 2,
+        units: "50g",
+        image: macoroniKruiden,
+        compound: "dillezaad, oregano, curcuma, cayene"
+    },
+    {   id: 15,
+        kruidenName: "Laos gemalen",
+        searchGroup: "kruiden",
+        price: 1.75,
+        units: "",
+        image: laosGemalen,
+        compound: ""
+    },
+    {   id: 16,
+        kruidenName: "Koriander zaad",
+        searchGroup: "kruiden",
+        price: 1.75,
+        units: "",
+        image: koriander,
+        compound: ""
+    },
+    {   id: 17,
+        kruidenName: "Komijn gemalen",
+        searchGroup: "kruiden",
+        price: 1.75,
+        units: "",
+        image: komijnGemalen,
+        compound: ""
+    },
+    {   id: 18,
+        kruidenName: "Bami Kruiden",
+        searchGroup: "kruiden",
+        price: 1.75,
+        units: "50g",
+        image: bamiKruiden,
         compound: ""
     },
 ]
