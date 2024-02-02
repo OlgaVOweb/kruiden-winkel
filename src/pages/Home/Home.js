@@ -1,7 +1,7 @@
 
 import tea from '..//..//image/tea.png';
 import spice from '..//..//image/spice.png';
-import '../Home/Home.css';
+import './Home.css';
 import oolong from '..//..//imageData/oolong.jpg';
 import banner1 from '..//..//image/banner1.png';
 import banner2 from '..//..//image/banner2.png'
