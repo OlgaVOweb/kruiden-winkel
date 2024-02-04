@@ -6,10 +6,10 @@ import Payment from './pages/Payment';
 import basket from './icons/basket.png';
 import magnifier from './icons/magnifier.png';
 import burger from './icons/burger.png';
-import Contacts from './pages/Contacts';
+import Contacts from './pages/Contacts/Contacts';
 import Footer from './Footer';
 import { useState } from 'react';
-import Products from './pages/Products/Products';
+import Products from './pages/products/Products';
 import Home from './pages/Home/Home';
 
 
@@ -43,9 +43,9 @@ function App() {
           </div>
         </div>
       </nav>
-
+<Home/>
       <Routes>
-      <Route path="/" element={<Home/>} />
+      <Route path="/home" element={<Home/>} />
         <Route path="/products" element={<Products/>} />
         <Route path="/delivery" element={<Delivery/>} />
         <Route path="/payment" element={<Payment/>}/>
