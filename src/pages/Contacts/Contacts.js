@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import AddressTwo from './AddressTwo';
 import AddressThird from './AddressThird';
@@ -25,7 +23,7 @@ setIsMapOpen(!showMap);
         </div>
         <div className='arrow'>
         <div className="arrow-down">
-                 <span></span>
+    <span></span>
     <span></span>
     <span></span>
     </div>

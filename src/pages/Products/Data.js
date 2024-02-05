@@ -94,14 +94,10 @@ export const Data = [
         image: kerryMasala,
         compound: ""
     },
-    {   id: 10,
-        kruidenName: "",
-        searchGroup: "kruiden",
-        price: 1.75,
-        units: "50g",
-        image: kerryMasala,
-        compound: ""
-    },
+
+
+
+
     {   id: 11,
         kruidenName: "Sambal peper",
         searchGroup: "kruiden",
