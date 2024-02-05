@@ -6,10 +6,12 @@
 	background-repeat: no-repeat;
 	margin-top: 3px;
 	padding: 74px 120px;
+
 }
 
 .contact-text{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -19,7 +21,9 @@
 	font-size: 36px;
 	font-style: normal;
 	font-weight: bold;
-	line-height: 130%;
+}
+.top-text{
+    margin-top: -14px;
 }
 .arrow{
     display: flex;
@@ -60,7 +64,14 @@
         transform: rotate(45deg) translate(20px,20px);
     }
 }
-
+.both-blocks{
+    display: flex;
+justify-content: space-evenly;
+margin-top: -20px;
+background-color: #ffffff;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border: 2px solid #125014;
+}
 .map-img{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -80,5 +91,16 @@ cursor: pointer;
 
 .local{
     margin-right: 10px;
+}
+.left-block{
+
+    padding: 20px;
+}
+.align{
+    display: flex;
+	flex-direction: column;
+
+    margin-left: 110px;
+    padding: 20px;
 }
 

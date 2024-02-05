@@ -1,10 +1,12 @@
 import { useState } from "react";
-import Button from './Button';
-import Kruiden from './Kruiden';
 import './products.css';
+import Button from "./Button";
+import Kruiden from "./Kruiden";
 import { Data } from "./Data";
+import ProductsItem from "./ProductCard/ProductsItem";
 
-function Products() {
+
+function ProductsPage() {
     const [kruiden, setKruiden] = useState(Data);
   
     const chosenKruiden = (searchGroup) => {
@@ -14,6 +16,7 @@ function Products() {
   
     return (
       <div className="container">
+        <ProductsItem  />
         <div className="container__header">
           <h2 className="container__header-products">PRODUCTS</h2>
           <button className="container__header-button">FILTER</button>
@@ -24,4 +27,4 @@ function Products() {
     );
 }
 
-export default Products;
+export default ProductsPage;

@@ -12,6 +12,10 @@ import laosGemalen from '..//..//imageData/laosGemalen.png';
 import koriander from '..//..//imageData/koriander.png';
 import komijnGemalen from '..//..//imageData/komijnGemalen.png';
 import bamiKruiden from '..//..//imageData/bamiKruiden.png';
+import gemberGemalen from '..//..//imageData/gemberGemalen.png';
+import komijnZaad from '..//..//imageData/komijnZaad.png';
+import sateKruid from '..//..//imageData/sateKruid.png';
+import piripiriKruiden from '..//..//imageData/piripiriKruiden.png';
 
 
 export const Data = [
@@ -159,4 +163,36 @@ export const Data = [
         image: bamiKruiden,
         compound: ""
     },
+    {   id: 19,
+        kruidenName: "Gember Gemalen",
+        searchGroup: "gemalen",
+        price: 1.75,
+        units: "50g",
+        image: gemberGemalen,
+        compound: ""
+    },
+    {   id: 20,
+        kruidenName: "Komijn Zaad",
+        searchGroup: "zaad",
+        price: 1.75,
+        units: "50g",
+        image: komijnZaad,
+        compound: ""
+    },
+    {   id: 21,
+        kruidenName: "Sate Kruid",
+        searchGroup: "kruid",
+        price: 1.75,
+        units: "50g",
+        image: sateKruid,
+        compound: ""
+    },
+    {   id: 22,
+        kruidenName: "Piripiri Kruiden",
+        searchGroup: "kruiden",
+        price: 1.75,
+        units: "50g",
+        image: piripiriKruiden,
+        compound: ""
+    }
 ]
