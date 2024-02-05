@@ -17,8 +17,8 @@ import komijnZaad from '..//..//imageData/komijnZaad.png';
 import sateKruid from '..//..//imageData/sateKruid.png';
 import piripiriKruiden from '..//..//imageData/piripiriKruiden.png';
 import paprikaZoet from '../../imageData/paprikaZoet.png';
-import paprikaGerookt from '../../imageData/paprikaGerookt';
-import kerryMasala from '../../imageData/kerryMasala';
+import paprikaGerookt from '../../imageData/paprikaGerookt.png';
+import kerryMasala from '../../imageData/kerryMasala.png';
 
 
 export const Data = [
@@ -94,14 +94,10 @@ export const Data = [
         image: kerryMasala,
         compound: ""
     },
-    {   id: 10,
-        kruidenName: "",
-        searchGroup: "kruiden",
-        price: 1.75,
-        units: "50g",
-        image: kerryMasala,
-        compound: ""
-    },
+
+
+
+
     {   id: 11,
         kruidenName: "Sambal peper",
         searchGroup: "kruiden",
