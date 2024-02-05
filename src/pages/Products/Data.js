@@ -16,9 +16,9 @@ import gemberGemalen from '..//..//imageData/gemberGemalen.png';
 import komijnZaad from '..//..//imageData/komijnZaad.png';
 import sateKruid from '..//..//imageData/sateKruid.png';
 import piripiriKruiden from '..//..//imageData/piripiriKruiden.png';
-import paprikaZoet from '../../imageData/paprikaZoet.png';
-import paprikaGerookt from '../../imageData/paprikaGerookt.png';
-import kerryMasala from '../../imageData/kerryMasala.png';
+import paprikaZoet from '..//..//imageData/paprikaZoet.png';
+import paprikaGerookt from '..//..//imageData/paprikaGerookt.png';
+import kerryMasala from '..//..//imageData/kerryMasala.png';
 
 
 export const Data = [
