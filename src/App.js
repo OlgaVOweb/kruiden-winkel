@@ -6,7 +6,7 @@ import Delivery from './pages/Delivery/Delivery';
 import basket from './icons/basket.png';
 import magnifier from './icons/magnifier.png';
 import burger from './icons/burger.png';
-import Contacts from './pages/Contacts';
+import Contacts from './pages/Contacts/Contacts';
 import Footer from './Footer';
 import { useState } from 'react';
 import Products from './pages/Products/Products';
@@ -45,7 +45,6 @@ function App() {
           </div>
         </div>
       </nav>
-
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/products" element={<Products/>} />

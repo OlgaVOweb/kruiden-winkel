@@ -4,7 +4,8 @@ import spice from '..//..//image/spice.png';
 import './Home.css';
 import oolong from '..//..//imageData/oolong.jpg';
 import banner1 from '..//..//image/banner1.png';
-import banner2 from '..//..//image/banner2.png'
+import banner2 from '..//..//image/banner2.png';
+import Contacts from '../Contacts/Contacts';
 
 const Home = () => {
   return (
@@ -77,6 +78,7 @@ After all, your dishes will acquire incredible notes and taste.</p>
 <img className="banner-spice-img" src={banner2} alt="spice"/>
 </div>
     </div>
+    <Contacts/>
     </div>
   )
 }
