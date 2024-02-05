@@ -6,6 +6,12 @@ const AddressForm = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [address, setAddress] = useState("");
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleCheckboxChange = () => {
+    setIsOpen(!isOpen);
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -28,7 +34,10 @@ const AddressForm = () => {
 
   return (
     <div>
-    <p className='del'>Home delivery</p>
+      <label className="open-form" >
+        <input className="check-box" type="checkbox" onChange={handleCheckboxChange} />
+    <p className='del'>Home delivery</p></label>
+    {isOpen && (
     <form className="form-del" onSubmit={handleSubmit}>
       <input className="input1"
         type="text"
@@ -55,6 +64,7 @@ const AddressForm = () => {
 
       <button type="submit" className="btn-sent">Send</button>
     </form>
+        )}
     </div>
   );
 };

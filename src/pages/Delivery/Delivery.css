@@ -118,7 +118,16 @@
 }
 
 /*home*/
+.open-form{
+	display: flex;
+	justify-content: center;
+}
 
+.check-box{
+	width: 15px;
+	height: 15px; 
+	align-self: center;
+}
 .del {
 	text-align: center;
 	font-weight: bold;
