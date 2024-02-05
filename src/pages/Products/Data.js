@@ -16,6 +16,9 @@ import gemberGemalen from '..//..//imageData/gemberGemalen.png';
 import komijnZaad from '..//..//imageData/komijnZaad.png';
 import sateKruid from '..//..//imageData/sateKruid.png';
 import piripiriKruiden from '..//..//imageData/piripiriKruiden.png';
+import paprikaZoet from '../../imageData/paprikaZoet.png';
+import paprikaGerookt from '../../imageData/paprikaGerookt';
+import kerryMasala from '../../imageData/kerryMasala';
 
 
 export const Data = [
@@ -68,35 +71,35 @@ export const Data = [
         compound: "koriander"
     },
     {   id: 7,
-        kruidenName: "Biefstuk kruiden",
+        kruidenName: "Paprika zoet",
         searchGroup: "kruiden",
         price: 1.75,
         units: "50g",
-        image: biefstukKruiden,
-        compound: ""
+        image: paprikaZoet,
+        compound: "paprika"
     },
     {   id: 8,
-        kruidenName: "Biefstuk kruiden",
+        kruidenName: "Paprika Gerookt",
         searchGroup: "kruiden",
         price: 1.75,
         units: "50g",
-        image: biefstukKruiden,
-        compound: ""
+        image: paprikaGerookt,
+        compound: "paprika"
     },
     {   id: 9,
-        kruidenName: "Biefstuk kruiden",
+        kruidenName: "Kerry Masala",
         searchGroup: "kruiden",
         price: 1.75,
         units: "50g",
-        image: biefstukKruiden,
+        image: kerryMasala,
         compound: ""
     },
     {   id: 10,
-        kruidenName: "Biefstuk kruiden",
+        kruidenName: "",
         searchGroup: "kruiden",
         price: 1.75,
         units: "50g",
-        image: biefstukKruiden,
+        image: kerryMasala,
         compound: ""
     },
     {   id: 11,
