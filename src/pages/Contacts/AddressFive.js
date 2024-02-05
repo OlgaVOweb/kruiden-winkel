@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import local from '..//..//image/local.png'
+import local from '..//..//image/local.png';
+import  '..//Contacts/Contacts.css';
 
 const AddressFive = () => {
   const [showMap, setIsMapOpen] = useState(false);
