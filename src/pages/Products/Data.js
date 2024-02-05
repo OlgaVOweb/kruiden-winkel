@@ -95,11 +95,11 @@ export const Data = [
         compound: ""
     },
     {   id: 10,
-        kruidenName: "Biefstuk kruiden",
+        kruidenName: "",
         searchGroup: "kruiden",
         price: 1.75,
         units: "50g",
-        image: biefstukKruiden,
+        image: kerryMasala,
         compound: ""
     },
     {   id: 11,
