@@ -84,3 +84,20 @@
     padding: 5px 0;
     border: none;
 }
+
+.product-image {
+    width: 150px;
+}
+
+.categoryButtonSelected {
+    background: #15f811;
+}
+
+.categoryButton:hover {
+    background: #faa82d;
+}
+.categoryButton {
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+}
