@@ -4,7 +4,7 @@ import { filterCategory, getSelectedCategory } from "../../../redux/prodSlice";
 const Filter = ({category}) => {
     const dispatch = useDispatch();
     const selectedCategory = useSelector(getSelectedCategory);
-    return (<div>
+    return (<div className="container__category-item">
         <p onClick={()=>{dispatch(filterCategory(category))}}
         className={selectedCategory === category ? 'categoryButtonSelected categoryButton' : 'categoryButton'}>
         {category}</p>
