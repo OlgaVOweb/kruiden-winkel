@@ -10,9 +10,7 @@ import Contacts from '../Contacts/Contacts';
 const Home = () => {
   return (
     <div className='home-page'>
-      <div className='page'>
     <div className="main-home">
-
      <img src={tea} className='img-mainn' alt='tea' />
      <div className='main-text'>
      <p className='big-text'>TURAN KRUIDEN EN THEE</p>
@@ -25,7 +23,6 @@ const Home = () => {
     </div>
 
     <div className='block-second'>
-      <div className='bl-second'>
         <div className='best-text'>
           <p className='one-text'>Bestsellers</p>
           <p className='two-text'>Legendary products won love our clients</p>
@@ -52,7 +49,7 @@ const Home = () => {
                         <button className='more'>Read more</button>
                     </div>
                                     </div>
-        </div>
+
     </div>
 
     <div className='block-third'>
@@ -74,11 +71,10 @@ const Home = () => {
 After all, your dishes will acquire incredible notes and taste.</p>
           <button className='btn-bestsellers enjoy-btn'>Products</button>
 </div>
-<img className="banner-spice-img" src={banner2} alt="spice"/>
+<img className="banner-imgg" src={banner2} alt="spice"/>
 </div>
     </div>
     <Contacts/>
-    </div>
     </div>
   )
 }
