@@ -1,6 +1,6 @@
 import React from 'react';
 import  '..//Contacts/Contacts.css';
- import local from '..//..//image/local.png'
+import '..//Home/Home.css'
 
 import MapAddress from './AddressMap';
 

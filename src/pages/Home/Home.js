@@ -71,7 +71,7 @@ const Home = () => {
 After all, your dishes will acquire incredible notes and taste.</p>
           <button className='btn-bestsellers enjoy-btn'>Products</button>
 </div>
-<img className="banner-imgg" src={banner2} alt="spice"/>
+<img className="banner-img imgg" src={banner2} alt="spice"/>
 </div>
     </div>
     <Contacts/>
