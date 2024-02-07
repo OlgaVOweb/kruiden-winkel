@@ -2,7 +2,7 @@
 import tea from '..//..//image/tea.png';
 import spice from '..//..//image/spice.png';
 import './Home.css';
-import oolong from '..//..//imageData/oolong.jpg';
+import kerryMasala from '..//..//image/kerryMasala.png';
 import banner1 from '..//..//image/banner1.png';
 import banner2 from '..//..//image/banner2.png';
 import Contacts from '../Contacts/Contacts';
@@ -29,21 +29,21 @@ const Home = () => {
           <button className='btn-bestsellers'>Look</button>
 </div>
 <div className='card-bestsellers  width-mini'>
-                    <img className="bestsellers-img" src={oolong} alt="prod"/>
+                    <img className="bestsellers-img" src={kerryMasala} alt="prod"/>
                     <div className="product__card-content ">
                         <h4 className='price-best'>$ 2 </h4>
                         <button className='more'>Read more</button>
                     </div>
                                     </div>
                                     <div className='card-bestsellers width-mini'>
-                    <img className="bestsellers-img " src={oolong} alt="prod"/>
+                    <img className="bestsellers-img " src={kerryMasala} alt="prod"/>
                     <div className="product__card-content">
                         <h4 className='price-best'>$ 2 </h4>
                         <button className='more'>Read more</button>
                     </div>
                                     </div>
                                     <div className='card-bestsellers width-mini none'>
-                    <img className="bestsellers-img " src={oolong} alt="prod"/>
+                    <img className="bestsellers-img " src={kerryMasala} alt="prod"/>
                     <div className="product__card-content ">
                         <h4 className='price-best'>$ 2 </h4>
                         <button className='more'>Read more</button>

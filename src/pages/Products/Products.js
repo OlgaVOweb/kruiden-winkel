@@ -2,7 +2,7 @@ import './products.css';
 import ProductsItem from "./ProductCard/ProductsItem";
 import AllCategories from "./Filter/AllCategories";
 
-function ProductsPage() {  
+function ProductsPage(){
     return (
       <div className="container">
         <div className="container__header">
@@ -13,6 +13,6 @@ function ProductsPage() {
         <ProductsItem  />
       </div>
     );
-}
+    }
 
 export default ProductsPage;

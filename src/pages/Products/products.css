@@ -1,103 +1,141 @@
 .container {
     display: flex;
     flex-direction: column;
-    margin: 10px 120px;
+    margin: 0 120px;
 }
-
 .container__header {
     display: flex;
     justify-content: space-between;
-}
-
-.container__header-products {
-    font-size: 20px;
-}
-
-.container__header-button {
-    border-radius: 10px;
-    background: none;
-    width: 100px;
-    font-size: 15px;
-    padding: 0;
-    margin: 10px 0;
-}
-
-.container__buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #e3f3d5;
-    box-shadow: 2px 2px 2px 0 #9afa2d;
-}
-
-.container__buttons-item {
-    background: none;
-    border: none;
-    font-size: 15px;
-    width: 100px;
-    margin: 10px;
-    font-weight: bold;
-}
-
-.container__products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin-top: 30px;
 }
-.product__card {
-    width: 200px;
-    max-height: 400px;
-    box-shadow: 2px 2px 2px 2px #aeb8ae;
+.container__header-products {
+    font-size: 25px;
+    margin: 0;
 }
-
-.product__card-image {
-    padding: 10px;
+.container__header-button {
+    width: 155px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--green, #125014);
+    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+    color: var(--light, #FFF);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 140%;
+    align-self: center;
+    border: none;
+    cursor: pointer;
 }
-.product__card-content {
+.container__header-button:hover {
+    align-self: center;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 3px #125014 solid;
+    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+    flex-shrink: 0;
+    color: #1A1A1A;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.container__category {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-}
-.card__content-name, .card__content-price, .card__content-compound {
-    margin: 3px;
-    text-align: center;
+    background-color: #e6eedf;
+    margin-top: 30px;
     font-size: 15px;
+    padding: 15px;
 }
-.card__content-compound {
-    font-weight: lighter;
-}
-.product__card-buttons {
-    margin-top: 10px;
-}
-.card__buttons-item1, .card__buttons-item2, .card__buttons-item3 {
-    width: 35px;
-    padding: 5px 0;
-    border: none;
-
-}
-
-.card__buttons-item4 {
-    width: 95px;
-    background-color: #15f811;
-    color: #ffffff;
-    padding: 5px 0;
-    border: none;
-}
-
-.product-image {
-    width: 150px;
-}
-
 .categoryButtonSelected {
-    background: #15f811;
+    background: #345234;
+    color: white;
 }
-
 .categoryButton:hover {
-    background: #faa82d;
+    background: #ffffff;
+    color: #345234;
+    font-weight: bold;
+    font-size: 16px;
 }
 .categoryButton {
     cursor: pointer;
     margin: 5px;
     padding: 5px;
+}
+.container__products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.product__card {
+    width: 230px;
+    height: auto;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px #4b724ba9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product__card-image {
+    margin: 15px 0;
+    width: 200px;
+}
+.product__card-header{
+    height: 50px;
+    text-align: center;
+}
+.product__card-header, .product__card-price, .product__card-compound, .product__card-compoundH{
+    font-size: 20px;
+    margin: 5px;
+}
+.product__card-price{
+    font-weight: bold;
+    font-size: 25px;
+}
+.product__card-compound {
+    font-size: 15px;
+    text-align: center;
+    display: none;
+}
+.product__card-minus, .product__card-plus{
+    padding: 5px 25px;
+    margin-top: 15px;
+    background-color: #125014;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.product__card-quantity{
+    padding: 5px 15px;
+    margin-top: 15px;
+    height: 30px;
+}
+.product__card-button {
+    width: 155px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--green, #125014);
+    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+    color: var(--light, #FFF);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 140%;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+.product__card-button:hover {
+    border-radius: 10px;
+    background: #ffffff;
+    border: 3px #125014 solid;
+    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+    flex-shrink: 0;
+    color: #1A1A1A;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
