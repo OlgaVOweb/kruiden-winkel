@@ -39,7 +39,7 @@ nav {
 }
 .link:hover{
   background-color: rgb(44, 104, 46);
-  border-radius: 3px;
+  border-radius: 10px;
   color: white;
 }
 .link:active{
@@ -58,14 +58,23 @@ nav {
   border: 1px solid rgba(20, 53, 17, 1);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+input{
+  padding-left: 10px;
+}
 .magnifier{
-  width: 37px;
-  height: 37px;
-  margin: 0 20px;
+  width: 30px;
+  height: 30px;
+  margin: 0 20px 0 7px;
+}
+.magnifier:hover{
+  transform: scale(1.1);
 }
 .basket {
   width: 24px;
-  height: 34px;
+  height: 32px;
+}
+.basket:hover{
+  transform: scale(1.1);
 }
 .burger-button{
   display: none;
@@ -142,13 +151,13 @@ footer{
   height: 24px;
 }
 .magnifier{
-  width: 30px;
-  height: 30px;
-  margin: 0 10px;
+  width: 26px;
+  height: 26px;
+  margin: 0 10px 0 5px;
 }
 .basket {
   width: 20px;
-  height: 30px;
+  height: 26px;
 }
 footer{
   background-size: 170%;
@@ -191,9 +200,7 @@ nav{
   background-color: transparent;
   border: 0;
 }
-.search{
-  display: none;
-}
+
 .bottom-line{
   font-size: 10px;
 }
