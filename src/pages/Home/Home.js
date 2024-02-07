@@ -6,6 +6,7 @@ import kerryMasala from '..//..//image/kerryMasala.png';
 import banner1 from '..//..//image/banner1.png';
 import banner2 from '..//..//image/banner2.png';
 import Contacts from '../Contacts/Contacts';
+import Top from '../Top/Top';
 
 const Home = () => {
   return (
@@ -75,6 +76,7 @@ After all, your dishes will acquire incredible notes and taste.</p>
 </div>
     </div>
     <Contacts/>
+<Top/>
     </div>
   )
 }

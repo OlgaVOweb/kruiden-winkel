@@ -11,6 +11,7 @@ import Footer from './Footer';
 import { useState } from 'react';
 import Products from './pages/Products/Products';
 import Cart from './pages/Cart/Cart';
+import Top from './pages/Top/Top';
 
 
 function App() {
@@ -53,7 +54,9 @@ function App() {
         <Route path="/cart" element={<Cart/>}/>
       </Routes>
       <Footer/>
+      <Top/>
     </Router>
+
   );
 }
 
