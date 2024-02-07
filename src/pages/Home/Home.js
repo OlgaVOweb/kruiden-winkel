@@ -11,21 +11,18 @@ const Home = () => {
   return (
     <div className='home-page'>
     <div className="main-home">
-      <div className='block-first'>
-     <img src={tea} className='img-main' alt='tea' />
+     <img src={tea} className='img-mainn' alt='tea' />
      <div className='main-text'>
      <p className='big-text'>TURAN KRUIDEN EN THEE</p>
      <p className='mini-text  top'>WIJ VERKOOP AL 16 JAAR THEE EN KRUIDEN</p>
 
 <p className='mini-text'>DAAROM GARANDEREN WIJ DE KWALITEIT!</p>
      </div>
-     <img src={spice} className='img-main' alt='spice' />
-     </div>
+     <img src={spice} className='img-mainn' alt='spice' />
+
     </div>
 
     <div className='block-second'>
-      <div className='bl-second'>
-      <div className='bestsellers'>
         <div className='best-text'>
           <p className='one-text'>Bestsellers</p>
           <p className='two-text'>Legendary products won love our clients</p>
@@ -52,8 +49,7 @@ const Home = () => {
                         <button className='more'>Read more</button>
                     </div>
                                     </div>
-        </div>
-      </div>
+
     </div>
 
     <div className='block-third'>
@@ -75,7 +71,7 @@ const Home = () => {
 After all, your dishes will acquire incredible notes and taste.</p>
           <button className='btn-bestsellers enjoy-btn'>Products</button>
 </div>
-<img className="banner-spice-img" src={banner2} alt="spice"/>
+<img className="banner-img imgg" src={banner2} alt="spice"/>
 </div>
     </div>
     <Contacts/>
