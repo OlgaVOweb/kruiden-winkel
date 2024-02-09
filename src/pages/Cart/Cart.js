@@ -13,7 +13,6 @@ const Cart = () => {
       <h2>Your Cart</h2>
       <h3>TOTAL: € {totalPrice}</h3>
       {cartItems.map(cartItem => <CartItem cartItem={cartItem}/>)}
-     
     </div>
   )
 }
