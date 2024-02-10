@@ -8,7 +8,7 @@ const Contacts = () => {
 
 
   return (
-    <div>
+    <div className='body-contact'>
     <div className='block-contacts'>
       <div className='contact-text'>
         <p className='text-cont'>We are waiting for you in our stores! </p>

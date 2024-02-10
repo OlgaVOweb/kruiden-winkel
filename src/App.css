@@ -2,10 +2,6 @@ body {
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
 }
-.main{
-  padding: 0 120px;
-}
-
 /* Header */
 
 nav {
@@ -69,12 +65,27 @@ input{
 .magnifier:hover{
   transform: scale(1.1);
 }
+.cart-box{
+  position: relative;
+}
 .basket {
   width: 24px;
   height: 32px;
 }
 .basket:hover{
   transform: scale(1.1);
+}
+.total-quantity{
+  text-decoration: none;
+  color: white;
+  background-color: #125014;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 14px;
+  position: absolute;
+  top: -12px;
+  right: -15px;
 }
 .burger-button{
   display: none;
@@ -93,6 +104,7 @@ footer {
   background-size: cover;
   border-top: 2px solid rgba(18, 80, 20, 1);
   box-shadow: 4px -2px 4px 0 rgba(34, 112, 37, 1);
+
 }
 footer p{
   margin: 0;
@@ -159,6 +171,7 @@ footer{
   width: 20px;
   height: 26px;
 }
+
 footer{
   background-size: 170%;
 }

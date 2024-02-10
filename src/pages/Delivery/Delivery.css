@@ -5,7 +5,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-bottom: 60px;
-	height: 100%;
+	min-height: 85vh;
 	margin-top: 6px;
 }
 

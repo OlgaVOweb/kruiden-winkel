@@ -8,14 +8,17 @@ import magnifier from './icons/magnifier.png';
 import burger from './icons/burger.png';
 import Contacts from './pages/Contacts/Contacts';
 import Footer from './Footer';
-import { useState } from 'react';
+import { useState} from 'react';
 import Products from './pages/Products/Products';
 import Cart from './pages/Cart/Cart';
 import Top from './pages/Top/Top';
+import { getTotalQuantity } from './redux/cartSlice';
+import { useSelector } from 'react-redux';
 
 
 function App() {
   const [isOpen, setOpen] = useState();
+  const totalQuantity = useSelector(getTotalQuantity);
 
   const closeMobileMenu = () => {
     setOpen(false);
@@ -37,7 +40,10 @@ function App() {
             <input className='search'/>
             <img src={magnifier} alt='magnifier' className='magnifier'/>
             <Link to="/cart">
-              <img src={basket} alt='basket' className='basket'/>
+              <div className='cart-box'>
+                <img src={basket} alt='basket' className='basket'/>
+                {totalQuantity > 0 && <span className='total-quantity'>{totalQuantity}</span>}
+              </div>
             </Link>
             
             <button className='burger-button' onClick={()=> setOpen(!isOpen)}>
