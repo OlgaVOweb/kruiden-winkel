@@ -1,4 +1,3 @@
-
 import tea from '..//..//image/tea.png';
 import spice from '..//..//image/spice.png';
 import './Home.css';
@@ -8,7 +7,11 @@ import banner2 from '..//..//image/banner2.png';
 import Contacts from '../Contacts/Contacts';
 import Top from '../Top/Top';
 
+
 const Home = () => {
+
+
+
   return (
     <div className='home-page'>
     <div className="main-home">
@@ -29,29 +32,36 @@ const Home = () => {
           <p className='two-text'>Legendary products won love our clients</p>
           <button className='btn-bestsellers'>Look</button>
 </div>
-<div className='card-bestsellers  width-mini'>
-                    <img className="bestsellers-img" src={kerryMasala} alt="prod"/>
-                    <div className="product__card-content ">
-                        <h4 className='price-best'>$ 2 </h4>
-                        <button className='more'>Read more</button>
-                    </div>
-                                    </div>
+
+<div className='card-best'>
+<div className='card-bestsellers width-mini'>
+<img className="bestsellers-img " src={kerryMasala} alt="prod"/>
+                    <div className="product__card-content">
+                        <h4 className="product__card-header">Kerry Masala, 50g </h4>
+                        <p className="product__card-price">€ 1.75</p>
+                        {/* <button className='more'>Read more</button> */}
+                    </div> 
+</div>
                                     <div className='card-bestsellers width-mini'>
                     <img className="bestsellers-img " src={kerryMasala} alt="prod"/>
                     <div className="product__card-content">
-                        <h4 className='price-best'>$ 2 </h4>
-                        <button className='more'>Read more</button>
+                        <h4 className="product__card-header">Kerry Masala, 50g </h4>
+                        <p className="product__card-price">€ 1.75</p>
+                        {/* <button className='more'>Read more</button> */}
                     </div>
                                     </div>
                                     <div className='card-bestsellers width-mini none'>
-                    <img className="bestsellers-img " src={kerryMasala} alt="prod"/>
-                    <div className="product__card-content ">
-                        <h4 className='price-best'>$ 2 </h4>
-                        <button className='more'>Read more</button>
+                                    <img className="bestsellers-img " src={kerryMasala} alt="prod"/>
+                    <div className="product__card-content">
+                        <h4 className="product__card-header">Kerry Masala, 50g </h4>
+                        <p className="product__card-price">€ 1.75</p>
+                        {/* <button className='more'>Read more</button> */}
                     </div>
                                     </div>
+                                    </div>
+    
+</div>
 
-    </div>
 
     <div className='block-third'>
       <div className='block-3'>
@@ -78,6 +88,7 @@ After all, your dishes will acquire incredible notes and taste.</p>
     <Contacts/>
 <Top/>
     </div>
+
   )
 }
 
