@@ -138,3 +138,10 @@
     text-transform: uppercase;
     font-weight: bolder;
 }
+.title-link{
+    text-decoration: none;
+    color: black;
+}
+.title-link:hover{
+    transform: scale(1.05);
+}

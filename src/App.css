@@ -213,7 +213,10 @@ nav{
   background-color: transparent;
   border: 0;
 }
-
+.burger-button img{
+  width: 40px;
+  padding-left: 8px;
+}
 .bottom-line{
   font-size: 10px;
 }

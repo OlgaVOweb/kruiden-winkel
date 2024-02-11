@@ -14,6 +14,7 @@ import Cart from './pages/Cart/Cart';
 import Top from './pages/Top/Top';
 import { getTotalQuantity } from './redux/cartSlice';
 import { useSelector } from 'react-redux';
+import AboutProduct from './pages/AboutProduct/AboutProduct';
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
         <Route path="/delivery" element={<Delivery/>} />
         <Route path="/contacts" element={<Contacts/>}/>
         <Route path="/cart" element={<Cart/>}/>
+        <Route path="/about/:productName" element={<AboutProduct/>}/>
       </Routes>
       <Footer/>
       <Top/>
