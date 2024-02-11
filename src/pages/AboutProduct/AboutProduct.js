@@ -14,7 +14,7 @@ const AboutProduct = () => {
   return (
     <div className="product-container">
       {dataProducts.filter((item) => item.productName === productName).map(element =>{
-        const{id, productName, price, units, image, compound, howToUse, category} = element;
+        const{id, productName, price, units, image, howToUse} = element;
 
         return (
           <div key={id} className="product-box">
