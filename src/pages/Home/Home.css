@@ -6,7 +6,7 @@
 .home-page {
 	background-image: url(/src/image/bg1.png);
 	background-size: contain;
-	padding-top: 60px;
+	padding-top: 30px;
 	margin-top: 6px;
 	padding-left: 120px;
 	padding-right: 120px;
@@ -15,13 +15,13 @@
 .main-home {
 	display: flex;
 	justify-content: center;
-	padding-top: 60px;
+	padding-top: 10px;
 	background-position: center;
 	width: 100%;
 }
 
 .img-mainn {
-	width: 420px;
+	width: 390px;
 	height: 522px;
 }
 
@@ -65,7 +65,7 @@
 .block-second {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 180px;
+	margin-top: 120px;
 	background: var(--light_green, #F5FAF3);
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -111,7 +111,10 @@
 	align-self: center;
 	border: none;
 }
-
+.card-best{
+	display: flex;
+	
+}
 .btn-bestsellers:hover {
 	align-self: center;
 	border-radius: 10px;
@@ -125,6 +128,7 @@
 }
 
 .card-bestsellers {
+	flex-wrap: wrap;
 	margin-left: 100px;
 	display: flex;
 	flex-direction: column;
@@ -137,6 +141,7 @@
 	flex-shrink: 0;
 	align-self: center;
 	margin: 20px;
+	text-align: center;
 }
 
 .bestsellers-img {
@@ -687,28 +692,30 @@
 		display: none;
 	}
 
-	.block-second {
-		margin-top: 80px;
-	}
-
 
 	.block-second {
-		margin-top: 20px;
+		margin-top: 60px;
 		background-image: url(..//..//image/bg-bes.png);
 		background-position: center;
 		height: 100%;
 		background-size: cover;
 		background-repeat: no-repeat;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.best-text {
-		margin-right: 0;
 		width: 180px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-	.card-bestsellers {
-		display: none;
-	}
+.card-best{
+	display: flex;
+	flex-direction: column;
+justify-content: center;
+
+}
 
 
 	.banner-img {
@@ -741,14 +748,7 @@
 		margin-top: 40px;
 	}
 
-	.best-text {
-		margin-right: 0;
-		width: 180px;
-	}
 
-	.card-bestsellers {
-		display: none;
-	}
 
 	.block-third {
 		display: flex;
@@ -804,14 +804,7 @@
 		margin-top: 40px;
 	}
 
-	.best-text {
-		margin-right: 0;
-		width: 180px;
-	}
 
-	.card-bestsellers {
-		display: none;
-	}
 
 	.one-text {
 		font-size: 24px;
@@ -867,10 +860,12 @@
 	}
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 285px) {
 
 	.best-text {
 		font-size: 16px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.banner-img {
