@@ -9,7 +9,7 @@ export const dataProducts = [
         category: "KRUIDEN"
     },
     {  id: 2,
-        productName: "bieslook",
+        productName: "Bieslook",
         price: 1.75,
         units: "g",
         image: "../imageData/bieslook",
