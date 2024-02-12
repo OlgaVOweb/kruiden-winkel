@@ -13,8 +13,8 @@ const AboutProduct = () => {
 
   return (
     <div className="product-container">
-      {dataProducts.filter((item) => item.productName === productName).map(element =>{
-        const{id, productName, price, units, image, howToUse} = element;
+      {dataProducts.filter((item) => item.productName === productName).map(product =>{
+        const {id, productName, price, units, image, howToUse} = product;
 
         return (
           <div key={id} className="product-box">
@@ -25,7 +25,7 @@ const AboutProduct = () => {
                 <p>{howToUse}</p>
                 <h2>€ {price} / {units}</h2>
                 <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
-                <button className="product__card-button about-product-btn" onClick={() => dispatch(addItemToCart({id, productName, quantity}))}>ADD to cart</button>
+                <button className="product__card-button about-product-btn" onClick={() => dispatch(addItemToCart({ product, quantity}))}>ADD to cart</button>
               </div>
 
           </div>
