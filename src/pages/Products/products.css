@@ -17,12 +17,12 @@
     height: 41px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: var(--green, #125014);
-    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
-    color: var(--light, #FFF);
+    background: #125014;
+    box-shadow: 0px 4px 4px 0px #111111;
+    color: #ffffff;
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: bolder;
     line-height: 140%;
     align-self: center;
     border: none;
@@ -33,7 +33,7 @@
     border-radius: 10px;
     background: #ffffff;
     border: 3px #125014 solid;
-    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+    box-shadow: 0px 4px 4px 0px #111111;
     flex-shrink: 0;
     color: #1A1A1A;
     text-transform: uppercase;
@@ -52,8 +52,8 @@
     color: white;
 }
 .categoryButton:hover {
-    background: #ffffff;
-    color: #345234;
+    color: #ffffff;
+    background: #345234;
     font-weight: bold;
     font-size: 16px;
 }
@@ -66,32 +66,40 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 30px 0;
+    margin: 30px -10px;
 }
 .product__card {
-    width: 230px;
+    width: 200px;
     height: auto;
     margin: 10px;
-    box-shadow: 2px 2px 2px 2px #4b724ba9;
+    box-shadow: 2px 1px 2px 2px #053a0a67;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
+
 .product__card-image {
     margin: 15px 0;
-    width: 200px;
+    width: 170px;
 }
 .product__card-header{
     height: 50px;
     text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 .product__card-header, .product__card-price, .product__card-compound, .product__card-compoundH{
-    font-size: 20px;
     margin: 5px;
 }
 .product__card-price{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
+}
+span {
+    font-size: 15px;
+    font-weight: 100;
 }
 .product__card-compound {
     font-size: 15px;
@@ -99,13 +107,14 @@
     display: none;
 }
 .product__card-minus, .product__card-plus{
-    padding: 5px 25px;
+    padding: 3px 25px;
     margin-top: 15px;
-    background-color: #125014;
+    background-color: #FC6C33;
     border: none;
-    color: #ffffff;
-    font-size: 20px;
+    color: #111111;
+    font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 .product__card-quantity{
     padding: 5px 15px;
@@ -113,39 +122,38 @@
     height: 30px;
 }
 .product__card-button {
-    width: 155px;
-    height: 41px;
+    width: 150px;
+    height: 33px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: var(--green, #125014);
-    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
-    color: var(--light, #FFF);
-    font-size: 16px;
+    background: #FC6C33;
+    color: #111111;
+    font-size: 14px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 140%;
     border: none;
     cursor: pointer;
-    margin: 15px;
+    margin: 10px;
 }
 .product__card-button:hover {
     border-radius: 10px;
-    background: #ffffff;
+    background: #125014;
     border: 3px #125014 solid;
-    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+    color: #ffffff;
     flex-shrink: 0;
-    color: #1A1A1A;
-    text-transform: uppercase;
     font-weight: bolder;
 }
 .title-link{
     text-decoration: none;
     color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .title-link:hover{
     transform: scale(1.05);
 }
-
 
 @media all and (max-width: 1200px){
     .container {
@@ -160,7 +168,49 @@
     }
     
     @media all and (max-width: 780px){
+        .container__header-products {
+            font-size: 20px;
+        }
+        .container__header-button {
+            width: 100px;
+            height: 30px;
+        }
 
-
+        .container__category {
+            margin-top: 10px;
+            font-size: 15px;
+            padding: 5px;
+        }
+        .product__card {
+            width: 150px;
+        }
         
+        .product__card-image {
+            margin: 15px 0;
+            width: 120px;
+        }
+        .product__card-header{
+            height: 30px;
+            font-size: 13px;
+        }
+        .product__card-price{
+            font-size: 15px;
+        }
+        span {
+            font-size: 12px;
+        }
+        .product__card-minus, .product__card-plus{
+            padding: 3px 15px;
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        .product__card-quantity{
+            padding: 3px 10px;
+            margin-top: 10px;
+        }
+        .product__card-button {
+            width: 100px;
+            height: 25px;
+            font-size: 12px;
+        }
     }
