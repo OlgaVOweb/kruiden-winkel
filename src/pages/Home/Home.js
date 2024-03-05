@@ -1,7 +1,6 @@
 import tea from '..//..//image/tea.png';
 import spice from '..//..//image/spice.png';
 import './Home.css';
-import kerryMasala from '..//..//image/kerryMasala.png';
 import banner1 from '..//..//image/banner1.png';
 import banner2 from '..//..//image/banner2.png';
 import Contacts from '../Contacts/Contacts';
