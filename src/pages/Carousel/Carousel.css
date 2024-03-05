@@ -109,11 +109,6 @@ border: none;
 }
 
 
-@media screen and (max-width: 480px) {
-	.card-bestsellers{
-		
-	}
-}
 
 @media screen and (max-width: 296px) {
 .arrowleft, .arrowright{
