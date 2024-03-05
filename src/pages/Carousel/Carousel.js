@@ -45,7 +45,7 @@ const cardsData = [
         <div className='block-second'>
            <p className='one-text'>Bestsellers</p>
          <div className='carousel' >
-    <button className='arrow' onClick={prevCards}><img className='arrowleft' src={arrowleft} /></button> 
+    <button className='arrow' onClick={prevCards}><img className='arrowleft' src={arrowleft} alt='arrow'/></button> 
               {showCards().map((card) => (
         <div className='card-bestsellers width-mini' key={card.id} >
            <img src={card.image} alt={card.title} className='card-best'/>
@@ -55,7 +55,7 @@ const cardsData = [
                            </div> 
       </div>
       ))}
-  <button className='arrow' onClick={nextCards}><img className='arrowright' src={arrowright} /></button>
+  <button className='arrow' onClick={nextCards}><img className='arrowright' src={arrowright} alt='arrow' /></button>
    </div>
     </div>
      </div>
