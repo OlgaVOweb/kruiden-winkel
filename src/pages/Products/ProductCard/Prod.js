@@ -8,17 +8,16 @@ const Prod = ({product}) => {
     const [quantity, setQuantity] = useState(1);
     const dispatch = useDispatch();
 
-    return (
-        <div className="product__card">
-            <Link to={`/about/${product.productName}`} className="title-link">
-                <img className="product__card-image" src={`${product.image}.png`} alt="kruid"/>
-                <h2 className="product__card-header">{product.productName}</h2>
-            </Link>
-            <p className="product__card-price">€ {product.price}/ {product.units} </p> 
-            <h2 className="product__card-compound">{product.compound}</h2>
-            <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
-            <button className="product__card-button" onClick={() => dispatch(addItemToCart({product, quantity}))}>ADD to cart</button>
-        </div>
+    return (  
+    <div className="product__card">
+        <Link to={`/about/${product.productName}`} className="title-link">
+            <img className="product__card-image" src={`${product.image}.png`} alt="kruid"/>
+            <h2 className="product__card-header">{product.productName}</h2>
+            <p className="product__card-price">€ {product.price} <span>/ {product.units}</span> </p> 
+        </Link>
+        <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
+        <button className="product__card-button" onClick={() => dispatch(addItemToCart({product, quantity}))}>ADD to cart</button>
+    </div> 
     )
 }
 
