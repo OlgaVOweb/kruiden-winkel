@@ -7,11 +7,7 @@ import Contacts from '../Contacts/Contacts';
 import Top from '../Top/Top';
 import Carousel from '../Carousel/Carousel';
 
-
-
 const Home = () => {
-
-
 
   return (
     <div className='home-page'>
@@ -26,8 +22,6 @@ const Home = () => {
      <img src={spice} className='img-mainn' alt='spice' />
 
     </div>
-
-
 
 <Carousel/>
     <div className='block-third'>
