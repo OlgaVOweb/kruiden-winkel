@@ -6,6 +6,8 @@ import banner1 from '..//..//image/banner1.png';
 import banner2 from '..//..//image/banner2.png';
 import Contacts from '../Contacts/Contacts';
 import Top from '../Top/Top';
+import Carousel from '../Carousel/Carousel';
+
 
 
 const Home = () => {
@@ -26,43 +28,9 @@ const Home = () => {
 
     </div>
 
-    <div className='block-second'>
-        <div className='best-text'>
-          <p className='one-text'>Bestsellers</p>
-          <p className='two-text'>Legendary products won love our clients</p>
-          <button className='btn-bestsellers'>Look</button>
-</div>
-
-<div className='card-best'>
-<div className='card-bestsellers width-mini'>
-<img className="bestsellers-img " src={kerryMasala} alt="prod"/>
-                    <div className="product__card-content">
-                        <h4 className="product__card-header">Kerry Masala, 50g </h4>
-                        <p className="product__card-price">€ 1.75</p>
-                        {/* <button className='more'>Read more</button> */}
-                    </div> 
-</div>
-                                    <div className='card-bestsellers width-mini'>
-                    <img className="bestsellers-img " src={kerryMasala} alt="prod"/>
-                    <div className="product__card-content">
-                        <h4 className="product__card-header">Kerry Masala, 50g </h4>
-                        <p className="product__card-price">€ 1.75</p>
-                        {/* <button className='more'>Read more</button> */}
-                    </div>
-                                    </div>
-                                    <div className='card-bestsellers width-mini none'>
-                                    <img className="bestsellers-img " src={kerryMasala} alt="prod"/>
-                    <div className="product__card-content">
-                        <h4 className="product__card-header">Kerry Masala, 50g </h4>
-                        <p className="product__card-price">€ 1.75</p>
-                        {/* <button className='more'>Read more</button> */}
-                    </div>
-                                    </div>
-                                    </div>
-    
-</div>
 
 
+<Carousel/>
     <div className='block-third'>
       <div className='block-3'>
     <img className="banner-img" src={banner1} alt="tea"/>
