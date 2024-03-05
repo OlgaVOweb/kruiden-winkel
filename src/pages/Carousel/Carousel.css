@@ -108,8 +108,6 @@ border: none;
     align-self: center;
 }
 
-
-
 @media screen and (max-width: 296px) {
 .arrowleft, .arrowright{
 	width: 20px;
