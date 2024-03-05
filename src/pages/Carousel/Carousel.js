@@ -17,6 +17,8 @@ const cardsData = [
    { id: 10, title: 'Bami Kruiden', image: 'imageData/bamiKruiden.png' },
    { id: 11, title: 'Basilicum', image: 'imageData/basilicum.png' },
    { id: 12, title: 'Kerry Masala', image: 'imageData/kerryMasala.png' }
+   { id: 13, title: 'Basilicum', image: 'imageData/basilicum.png' },
+   { id: 14, title: 'Karwij zaad', image: 'imageData/karwijZaad.png' }
    
  ];
  
